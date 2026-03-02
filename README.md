@@ -42,7 +42,7 @@
     <div id="lock-screen">
         <div class="pw-box">
             <h3>Enter Password</h3>
-            <p>Hint: Your name (shahnaz)</p>
+            <p>Hint: Your name (shanaz)</p>
             <input type="password" id="pw" placeholder="password...">
             <br>
             <button onclick="checkPw()">Enter</button>
@@ -54,7 +54,7 @@
     <div class="book">
         <div class="page" style="z-index: 1;">
             <div class="photo-frame">
-                <img src="https://via.placeholder.com/400x400?text=Sister+Photo" alt="Shahnaz Parvin">
+              Screenshot_2026-03-02-10-33-03-52_40deb401b9ffe8e1df2f1cc5ba480b12.jpgalt="Shahnaz Parvin">
             </div>
             <h1>Happy Birthday!</h1>
             <p>You are the best sister in the world. ❤️</p>
@@ -71,7 +71,7 @@
         </div>
 
         <div class="page cover" id="p1" style="z-index: 4;" onclick="flip('p1')">
-            <h1>Happy Birthday<br>Shahnaz Parvin</h1>
+            <h1>Happy Birthday<br>Shanaz Parvin</h1>
             <p style="color: white;">(Tap to start the journey...)</p>
         </div>
     </div>
@@ -79,7 +79,7 @@
     <script>
         function checkPw() {
             const pw = document.getElementById('pw').value;
-            if(pw.toLowerCase() === 'shahnaz') {
+            if(pw.toLowerCase() === 'shanaz') {
                 document.getElementById('lock-screen').classList.add('hidden');
             } else {
                 alert("Wrong password!");
